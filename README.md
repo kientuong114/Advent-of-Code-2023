@@ -8,7 +8,7 @@
 
 | Day |      Solved Part 1?        | Solved Part 2? |  Comment |
 | --- | --- | --- | --- |
-|   1  | :big_check_mark: | :big_check_mark: | I never thought these levels of despair could be achieved on day 1 |
+|   1  | :heavy_check_mark: | :heavy_check_mark: | I never thought these levels of despair could be achieved on day 1 |
 |   2  | :x: | :x: |  |
 |   3  | :x: | :x: |  |
 |   4  | :x: | :x: |  |
