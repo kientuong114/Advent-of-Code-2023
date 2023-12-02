@@ -45,8 +45,16 @@ def part2_alt(inp: list[str]):
 
 
 if __name__ == "__main__":
-    with open("1.in") as f:
-        inp = f.readlines()
+    import sys
+
+    if len(sys.argv) == 2:
+        file = "1.alt"
+    else:
+        file = "1.in"
+
+    with open(file) as f:
+        inp = [line.strip() for line in f.readlines()]
+
 
     print(f"Part 1: {part1(inp)}")
     print(f"Part 2: {part2_alt(inp)}")
