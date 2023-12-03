@@ -10,7 +10,7 @@
 | --- | --- | --- | --- |
 |   1  | :heavy_check_mark: | :heavy_check_mark: | I never thought these levels of despair could be achieved on day 1 |
 |   2  | :heavy_check_mark: | :heavy_check_mark: |  |
-|   3  | :x: | :x: |  |
+|   3  | :heavy_check_mark: | :heavy_check_mark: |  |
 |   4  | :x: | :x: |  |
 |   5  | :x: | :x: |  |
 |   6  | :x: | :x: |  |
