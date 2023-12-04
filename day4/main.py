@@ -3,22 +3,15 @@ from dataclasses import dataclass
 
 @dataclass
 class Card:
-    idx: int
     n_copies: int
-    win: set[str]
-    have: set[str]
-
-    @property
-    def points(self) -> int:
-        return len(self.have.intersection(self.win))
+    points: int
 
 def parse_line(line: str) -> Card:
-    card_num, cards = line.split(': ')
-    idx = int(card_num.lstrip('Card '))
+    _, cards = line.split(': ')
     win_list, have_list = cards.split(' | ')
     win = set(win_list.split())
     have = set(have_list.split())
-    return Card(idx, 1, win, have)
+    return Card(1, len(have.intersection(win)))
 
 def part1(inp: list[str]):
     s = 0
