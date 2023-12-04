@@ -35,8 +35,6 @@ def part2(inp: list[str]):
             continue
 
         for i in range(idx + 1, min(len(scratchcards), idx + card.points + 1)):
-            if i >= len(scratchcards):
-                break
             scratchcards[i].n_copies += card.n_copies
 
     return sum(card.n_copies for card in scratchcards)
